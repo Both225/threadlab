@@ -10,6 +10,7 @@ function Button({
   disabled = false,
   htmlType = "button",
   type = "primary",
+  width,
   customStyles,
 }) {
   const sizes = {
@@ -26,6 +27,7 @@ function Button({
     padding: sizes[size],
     fontSize: "1.6rem",
     cursor: "pointer",
+    width: `${width}`,
     customStyles,
   };
 
