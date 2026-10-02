@@ -14,11 +14,9 @@ function ProductCard({ product }) {
         />
       </div>
       <div className="px-4 pb-4">
-        <h1 className="text-[1.6rem] font-medium text-[#4a4a4a]">{title}</h1>
-        <p className="text-[1.4rem] text-[#4a4a52]">{description}</p>
-        <p className="text-[1.6rem] font-medium text-[#4a4a4a] mt-4">
-          ${price}
-        </p>
+        <h1 className="text-[1.6rem] font-semibold text-t-strong ">{title}</h1>
+        <p className="text-[1.4rem] text-t-weak">{description}</p>
+        <p className="text-[1.6rem] font-medium text-t-strong mt-4">${price}</p>
       </div>
     </div>
   );
