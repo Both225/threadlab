@@ -1,10 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #1e3a8a;
+  --color-primary: #2944cc;
   --color-secondary: #059669;
   --color-background: #f8fafc;
-  --color-foreground: var(--foreground);
+
+  --color-t-strong: #3d414f;
+  --color-t-weak: #545973;
+  --color-stroke-strong: #8086a6;
+  --color-stroke-weak: #e4e6f0;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
