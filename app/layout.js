@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full grid grid-rows-[min-content_1fr_min-content] grid-cols-1 bg-background">
+      <body className="min-h-full grid grid-rows-[min-content_1fr_min-content] bg-background grid-cols-[2rem_repeat(4,1fr)_2rem]">
         <Header />
         {children}
         <Footer />

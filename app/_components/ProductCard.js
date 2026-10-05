@@ -4,7 +4,7 @@ function ProductCard({ product }) {
   const { image, title, description, price } = product;
 
   return (
-    <div className="w-100 shrink-0 rounded-xl bg-white shadow-sm">
+    <li className="w-100 shrink-0 rounded-xl bg-white shadow-sm">
       <div className="relative w-full h-120 rounded-lg mb-3">
         <Image
           src={image}
@@ -18,7 +18,7 @@ function ProductCard({ product }) {
         <p className="text-[1.4rem] text-t-weak">{description}</p>
         <p className="text-[1.6rem] font-medium text-t-strong mt-4">${price}</p>
       </div>
-    </div>
+    </li>
   );
 }
 

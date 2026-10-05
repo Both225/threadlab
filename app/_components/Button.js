@@ -4,7 +4,7 @@ import { Button as ButtonApi } from "antd";
 
 function Button({
   children,
-  color = "#1e3a8a",
+  color = "#2944cc",
   size = "md",
   onClick,
   disabled = false,
