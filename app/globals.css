@@ -23,3 +23,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
 }
+
+.ant-pagination .ant-pagination-item-active {
+  border: none !important;
+  background: transparent !important;
+}

@@ -1,11 +1,17 @@
 import Image from "next/image";
 
-function ProductCard({ product }) {
+function ProductCard({ product, width = "40rem", height = "24rem" }) {
   const { image, title, description, price } = product;
 
   return (
-    <li className="w-100 shrink-0 rounded-xl bg-white shadow-sm">
-      <div className="relative w-full h-120 rounded-lg mb-3">
+    <li
+      style={{ width: width }}
+      className="w-100 shrink-0 rounded-xl bg-white shadow-sm"
+    >
+      <div
+        style={{ height: height }}
+        className="relative w-full rounded-lg mb-3"
+      >
         <Image
           src={image}
           alt={title}

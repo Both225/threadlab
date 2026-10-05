@@ -22,6 +22,13 @@ export const mockItems = [
     description: "Testing the card item",
     price: 99.99,
   },
+  {
+    id: 4,
+    image: hero,
+    title: "Test",
+    description: "Testing the card item",
+    price: 99.99,
+  },
 ];
 
 export const mockTrendBrand = [
