@@ -1,8 +1,8 @@
 "use client";
-
 import Button from "@/app/_components/Button";
 import ImageHero from "./ImageHero";
-import { Select } from "antd";
+import SelectSizes from "./SelectSizes";
+import Collapses from "./Collapses";
 
 function ProductDetailPage() {
   return (
@@ -14,27 +14,9 @@ function ProductDetailPage() {
           Add to wishlist
         </Button>
       </div>
+      <Collapses />
     </main>
   );
 }
 
 export default ProductDetailPage;
-
-function SelectSizes() {
-  function handleChange() {
-    console.log("select");
-  }
-
-  return (
-    <Select
-      style={{ width: "100%" }}
-      onChange={handleChange}
-      options={[
-        { value: "small", label: "S" },
-        { value: "medium", label: "M" },
-        { value: "large", label: "L" },
-      ]}
-      placeholder="select size"
-    />
-  );
-}

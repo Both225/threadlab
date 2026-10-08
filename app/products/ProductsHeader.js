@@ -1,6 +1,6 @@
 import Title from "../_components/Title";
 
-function Header({ title, description }) {
+function ProductsHeader({ title, description }) {
   return (
     <div className="col-start-2 col-end-6">
       <Title>{title}</Title>
@@ -9,4 +9,4 @@ function Header({ title, description }) {
   );
 }
 
-export default Header;
+export default ProductsHeader;

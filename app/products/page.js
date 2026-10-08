@@ -1,14 +1,14 @@
 import { mockItems } from "../_data/mockData";
 import FilterButton from "../_components/FilterButton";
 import Products from "../_components/Products";
-import Header from "./Header";
+import ProductsHeader from "./ProductsHeader";
 import Pagination from "../_components/Pagination";
 import HelpAndSupport from "../_components/HelpAndSupport";
 
 function ProductsList() {
   return (
     <main className="row-start-2 h-full col-start-2 col-end-6 space-y-[1.2rem] pt-[1.2rem]">
-      <Header
+      <ProductsHeader
         title={"T-Shirts"}
         description={
           "Soft yet striking, suede defines this season’s styles. Explore tailored jackets"
