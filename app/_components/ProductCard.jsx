@@ -6,7 +6,7 @@ function ProductCard({ product, width = "40rem", height = "24rem" }) {
   return (
     <li
       style={{ width: width }}
-      className="w-100 shrink-0 rounded-xl bg-white shadow-sm"
+      className="w-10 shrink-0 rounded-xl bg-white shadow-sm list-none"
     >
       <div
         style={{ height: height }}

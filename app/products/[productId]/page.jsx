@@ -3,6 +3,10 @@ import Button from "@/app/_components/Button";
 import ImageHero from "./ImageHero";
 import SelectSizes from "./SelectSizes";
 import Collapses from "./Collapses";
+import { mockItems } from "@/app/_data/mockData";
+import Title from "@/app/_components/Title";
+import HorizontalScrollItems from "@/app/_components/HorizontalScrollItems";
+import HelpAndSupport from "@/app/_components/HelpAndSupport";
 
 function ProductDetailPage() {
   return (
@@ -16,6 +20,11 @@ function ProductDetailPage() {
         </Button>
       </div>
       <Collapses />
+      <div className="my-[3.2rem] space-y-3">
+        <Title>Recommand</Title>
+        <HorizontalScrollItems items={mockItems} width="20rem" height="20rem" />
+      </div>
+      <HelpAndSupport />
     </main>
   );
 }
